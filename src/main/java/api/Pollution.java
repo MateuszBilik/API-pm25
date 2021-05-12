@@ -1,41 +1,29 @@
 package api;
 
+import lombok.*;
+
+import java.math.BigDecimal;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Pollution {
 
     private String type;
     private double value;
     private String date;
     private String location;
+    private String unit;
 
-    public String getType() {
-        return type;
+
+    @Override
+    public String toString() {
+        return String.format("%1s %4s %3s %22s %3s %13s %3s %4s %3s %1s",
+                "\n| ", type, " | ", location, " | ", getDateShorter(), " | ", value, unit, " |");
     }
 
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    public double getValue() {
-        return value;
-    }
-
-    public void setValue(double value) {
-        this.value = value;
-    }
-
-    public String getDate() {
-        return date;
-    }
-
-    public void setDate(String date) {
-        this.date = date;
-    }
-
-    public String getLocation() {
-        return location;
-    }
-
-    public void setLocation(String location) {
-        this.location = location;
+    private String getDateShorter() {
+        return date.substring(0, 16);
     }
 }
