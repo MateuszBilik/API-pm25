@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58678818-5b94-443f-a34f-3e4dc6783f16" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/api/Pm25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/Pm25.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/api/Pollution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/Pollution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pollution.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pollution.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/Pm25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/Pollution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/Pollution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620759998308</updated>
-      <workItem from="1620760001016" duration="17172000" />
+      <workItem from="1620760001016" duration="18029000" />
     </task>
     <servers />
   </component>
