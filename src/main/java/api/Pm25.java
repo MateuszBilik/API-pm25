@@ -70,9 +70,8 @@ public class Pm25 {
 
     private String[] getDateTime() {
         LocalTime timeNow = LocalTime.now();
-        LocalDate dateToday = LocalDate.now();
         return new String[]{
-                dateToday.toString(),
+                LocalDate.now().toString(),
                 String.valueOf(timeNow.getHour()),
                 String.valueOf(timeNow.getMinute())};
     }
